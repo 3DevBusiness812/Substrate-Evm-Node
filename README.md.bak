@@ -217,8 +217,9 @@ transferred (`0xdd`, or 221 in hex).
 After the extrinsic has finalized, use the `Chain State` app to query `evm > accountStorage` to see
 the ERC-20 balances for both Alice and Bob.
 
-### Step 5: MetaMask Wallet Connect Step
+### Step 4: Check Bob Contract Storage
 
+MetaMask Wallet Connect Step:
 RPC: 127.0.0.1:9933
 Chain ID is 42, but I was facing issue connecting with it as it clashes with Kovan testnet so I changed it to 43. You can try with 42 if it doesn't work I will tell you how to update the chain id.
 One change need to be done though is setting ChainId to some other value (43 works).
